@@ -1,0 +1,25 @@
+.uploadForm {
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.fileInput {
+  display: none;
+}
+
+.uploadForm > label {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-top: 32px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.uploadForm > label:hover {
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgba(255, 127, 80, 0.281);
+}

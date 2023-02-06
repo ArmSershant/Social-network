@@ -1,0 +1,11 @@
+.link {
+  display: block;
+  font-weight: 600;
+  color: tomato;
+  transition: 0.7s;
+  text-decoration: none;
+}
+.link:hover {
+  color: grey;
+  cursor: pointer;
+}

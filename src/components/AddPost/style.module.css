@@ -1,0 +1,38 @@
+.fileInput {
+  display: none;
+}
+
+.uploadForm > label {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-top: 32px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.uploadForm > label:hover {
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgba(229, 241, 9, 0.281);
+}
+.postText {
+  width: 10rem;
+  padding: 3px;
+  border: none;
+  text-align: center;
+  margin: 5px;
+  transition: 0.7s;
+  background-color: transparent;
+  border-bottom: 1px solid yellow;
+}
+
+.postText:hover {
+  border-bottom: 2px solid red;
+  width: 5rem;
+  color: green;
+}
+.postText:hover::placeholder {
+  font-weight: 500;
+  color: transparent;
+}

@@ -1,0 +1,22 @@
+.grid {
+  display: flex;
+}
+.guestProfile > img {
+  width: 150px;
+  height: 150px;
+  transition: 0.7s;
+}
+
+.guestProfile > img:hover {
+  -webkit-transform: translate3d(0, -5px, 0);
+  transform: translate3d(0, -5px, 0);
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  -moz-border-radius: 190px;
+  -webkit-border-radius: 190px;
+  border-radius: 190px;
+}
+
+.grid > h3 {
+  text-align: center;
+}

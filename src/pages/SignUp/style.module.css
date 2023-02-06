@@ -1,0 +1,92 @@
+.registration {
+  position: absolute;
+  left: 50%;
+  margin-top: 15rem;
+  border-radius: 8px;
+  padding: 0px 50px;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  background-color: white;
+}
+.forReg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 30%;
+  left: 41%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.link {
+  display: block;
+  color: white;
+  transition: 0.7s;
+  text-decoration: none;
+}
+.link:hover {
+  background-color: transparent;
+  color: tomato;
+  cursor: pointer;
+}
+
+.regInputDiv > input {
+  width: 10rem;
+  padding: 3px;
+  border: none;
+  text-align: center;
+  margin: 5px;
+  transition: 0.7s;
+}
+.regInputDiv > input:hover {
+  border-bottom: 2px solid red;
+  width: 5rem;
+  color: green;
+}
+.regInputDiv > input:hover::placeholder {
+  color: yellowgreen;
+  font-weight: 500;
+}
+.regInputDiv > input:focus {
+  outline: none;
+  color: red;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+}
+.registration > div {
+  width: 12.5rem;
+  text-align: center;
+}
+
+.rainbow {
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet,
+    red
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow-animation 500s linear infinite;
+}
+
+@keyframes rainbow-animation {
+  to {
+    background-position: 4500vh;
+  }
+}

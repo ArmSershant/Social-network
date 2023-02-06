@@ -1,0 +1,22 @@
+.p {
+  display: flex;
+  justify-content: center;
+}
+.post > img {
+  width: 450px;
+  height: 550px;
+  object-fit: cover;
+  transition: 0.7s;
+}
+.post > img:hover {
+  -webkit-transform: translate3d(0, -5px, 0);
+  transform: translate3d(0, -5px, 0);
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+.post > h3 {
+  text-align: center;
+}

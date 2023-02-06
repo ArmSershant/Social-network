@@ -1,0 +1,92 @@
+.testDiv {
+  display: flex;
+  flex-direction: column;
+}
+.testForm {
+  width: 11rem;
+  position: relative;
+  border-radius: 8px;
+  padding: 16px 48px;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  background-color: white;
+  margin: auto;
+}
+.testForm:hover {
+  -webkit-transform: translate3d(0, -5px, 0);
+  transform: translate3d(0, -5px, 0);
+  box-shadow: unset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  transition: 0.7s;
+}
+.testInput {
+  width: 11rem;
+  padding: 3px 0px 3px 0px;
+  border: none;
+  text-align: center;
+  margin: 5px 0 5px 0;
+  justify-content: center;
+  transition: 0.7s;
+}
+
+.testInput:hover {
+  border-bottom: 2px solid red;
+  width: 5rem;
+  margin-left: 3rem;
+  color: green;
+}
+
+.testInput:hover::placeholder {
+  color: transparent;
+  font-weight: 500;
+}
+
+.testInput:focus {
+  outline: none;
+  color: red;
+}
+
+.textArea {
+  transition: 0.7s;
+}
+.textArea:hover {
+  resize: none;
+  border: none;
+  background-color: rgba(128, 128, 128, 0.459);
+  border-radius: 3px;
+}
+.textArea:focus {
+  outline: none;
+  color: red;
+}
+.textArea::placeholder {
+  color: white;
+}
+.textArea:hover::placeholder {
+  color: transparent;
+  outline: none;
+}
+.select {
+  display: flex;
+  margin: auto;
+  background-color: aqua;
+  transition: 0.7s;
+  border: none;
+  border-radius: 3px;
+  padding: 3px;
+}
+.select:hover {
+  background-color: rgba(191, 10, 10, 0.374);
+}
+.select:focus {
+  outline: none;
+  background-color: rgba(11, 74, 142, 0.396);
+}
+.select > option {
+  text-align: center;
+  transition: 0.7s;
+}

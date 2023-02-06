@@ -1,0 +1,27 @@
+.searchText {
+  width: 10rem;
+  padding: 3px;
+  border: none;
+  text-align: center;
+  margin: 5px;
+  transition: 0.7s;
+  background-color: transparent;
+  border-bottom: 1px solid yellow;
+}
+
+.searchText:hover {
+  border-bottom: 2px solid red;
+  width: 5rem;
+  color: green;
+}
+.searchText:hover::placeholder {
+  font-weight: 500;
+  color: transparent;
+}
+.searchText:focus {
+  outline: none;
+  color: red;
+}
+.grid {
+  display: flex;
+}
